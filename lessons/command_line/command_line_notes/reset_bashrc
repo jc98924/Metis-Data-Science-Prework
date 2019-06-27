@@ -1,0 +1,15 @@
+Restore .bashrc File To Default Settings In Ubuntu
+
+As you might already know, there is a default version of the .bashrc file in the /etc/skel/ directory in Ubuntu. So if you have problems with .bashrc file, you can easily restore it to its default settings as described below.
+
+First, backup your current .bashrc file using command:
+
+$ cp ~/.bashrc ~/.bashrc.bak
+Then, copy the default version of .bashrc file to your current version like below:
+
+$ cp /etc/skel/.bashrc ~/
+Finally, run the following command to update the changes.
+
+$ source ~/.bashrc
+So, if you unknowingly put some crap in your .bash_profile or .bashrc files, follow the above steps to restore them to the default value. I tested this in Ubuntu 16.04 LTS, and worked fine. I hope It will probably work on other Ubuntu versions and derivatives.
+

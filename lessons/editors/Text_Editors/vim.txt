@@ -1,0 +1,12 @@
+Vim Text Editor Guide
+
+i --> Insert Mode
+o --> Insert Mode - At beginning of following line 
+v --> Visual Mode - Allows user to select the text with keyboard. Useful for several lines of text
+
+Command Mode
+:
+
+
+
+

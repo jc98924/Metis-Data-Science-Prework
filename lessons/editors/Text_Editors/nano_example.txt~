@@ -1,0 +1,28 @@
+Useful Terminal Commands
+
+mkdir <filename>
+*Create directory (folder)
+
+rm -r <filenfame>
+or rm -rf <filename>
+*Delete file 
+
+
+cd
+*Goes to home directory
+
+cd ..
+*Goes up one director
+
+Nano Shortcuts
+Ctrl + F --> Cursor Forward
+Ctrl + B --> Cursor Back
+Ctrl + P --> Cursor Up
+Ctrl + N --> Cursor Down 
+Ctrl + A --> Home
+Ctrl + E --> End 
+Ctrl + V --> Page Down 
+Ctrl + Y --> Page Up
+Ctrl + Space --> Forward One Word
+  
+

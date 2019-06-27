@@ -1,0 +1,49 @@
+# Command Line Crash Course
+
+### root directory
+
+**bin** *contains binaries for commands typed into command line. When a command is typed, the OS will search /bin for a matching executable. 
+
+**dev**
+
+**etc** *config files for the system
+
+**home** *home base of Unix system. For Linux it is located at /home/; Mac is located at /Users/
+
+**usr** *user-specific bin and lib directories. 
+
+**lib** *system libraries and other essentials that the system needs to run various programs under the hood
+
+**var**
+
+**vol**
+
+**tmp** *where temp files that may be needed during running programs will/can be stored
+
+
+## General Command Structure
+### Options and Arguments
+There are generally 3 parts to a command  
+* The name of the command; e.g. cd, ls, cat, etc
+* Arguments <directory_name>; e.g cd <directory_name> or ls <directory_name>
+* Optional Flags; options that you can set on the given command to dictate the way it runs
+	* -l for ls -l, -rf for rm -rf <dir_to_remove>
+	* Options are specified with leading -
+	* You can combined multiple options in one - (for instance -rf is like -r -f)
+	* Options have more informative alternatives by using --, -V or --version
+
+### Getting Help 
+* man <command_name> : calls out to the help manual with documentation of the given command
+	* ex. man ls
+* man -k <command_name> : works like apropos; search for all commands that you may mean
+* info <command_name> : works like 'man, gives you documentation on the desired command
+* <command_name> --help : Not unique to unix, but many commands you can run will accept a --help parameter; similar documentation to **man** and **info**.  
+
+
+
+
+
+
+
+
+

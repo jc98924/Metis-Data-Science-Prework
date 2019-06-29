@@ -2,7 +2,7 @@
 
 **Exercise 2.4 Using the variable totalwgt_lb, investigate whether first babies are lighter or heavier than others. Compute Cohen’s d to quantify the difference between the groups. How does it compare to the difference in pregnancy length?**
 
->> The Cohen's d value computed for the size effect between first born children and all other children is -0.0884. This signifies that the difference in average weight is .088 standard deviations, with first born children being relatively lighter. Based on Cohen's suggestions (listed below), the calculated value signifies a 'small' effect size for the given the dataset. Compared to the Cohen's d value for pregnancy length which is 0.029, it does hold a slightly larger effect but both measures are considered small.
+>> The Cohen's d value computed for the size effect between first born children and all other children is -0.0887. This signifies that the difference in average weight is .0887 standard deviations, with first born children being relatively lighter. Based on Cohen's suggestions (listed below), the calculated value signifies a 'small' effect size for the given the dataset. Compared to the Cohen's d value for pregnancy length which is 0.0289, it does hold a slightly larger effect but both measures are considered small.
 
 Effect size	| d	|Reference
 ------------|---|-----------

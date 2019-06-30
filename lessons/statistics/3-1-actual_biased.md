@@ -73,7 +73,7 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([num_kids_pmf, biased_pmf])
 thinkplot.Config(xlabel='Number of Children in Household', ylabel='PMF')
 ```
-![PMF Plots](/home/jc98924/Metis/dsp/lessons/statistics/pmfplot.png)
+![](https://github.com/jc98924/Metis-Data-Science-Prework/blob/master/lessons/statistics/ch3q1pmf.png)
 
 ```
 print('Unbiased mean:',round(num_kids_pmf.Mean(),3))
